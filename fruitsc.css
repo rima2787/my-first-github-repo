@@ -1,0 +1,187 @@
+
+
+.shop-section {
+    display: flex;
+    flex-wrap: wrap;  /* Allow items to wrap */
+    justify-content: space-between;  /* Space between items */
+    background-color: #94c9b9;
+    padding: 20px;
+}
+
+.box {
+    width: 48%;  /* Adjust width to fit two boxes per row with space */
+    background-color: rgba(224, 235, 224, 0.349);
+    padding: 20px;
+    margin-top: 15px;
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.box-content {
+    display: flex;
+}
+
+.box-img {
+    flex: 0 0 auto;
+    width: 200px; /* Adjust this value as needed */
+    height: 200px; /* Adjust this value as needed */
+    background-size: cover;
+}
+
+.product-details {
+    flex: 1 1 auto;
+    padding-left: 10px; /* Adjust as needed for spacing */
+}
+
+
+.see-more-button {
+    padding: 0; /* Remove padding */
+    margin-top: 20px; /* Add space above the button */
+    font-size: 1rem;
+    border: none; /* Remove border */
+    background: none; /* Remove background */
+    color: green; /* Set text color to green */
+    cursor: pointer; /* Change cursor to pointer */
+    outline: none; /* Remove the outline */
+    text-decoration: none; /* No underline */
+}
+
+.see-more-button:hover {
+    color: darkgreen; /* Darker green on hover */
+}
+
+.see-more-button:focus {
+    outline: none; /* Remove focus outline */
+}
+
+
+
+
+.shopping_details{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.availability {
+    font-weight: bold;
+}
+
+.availability.available {
+    color: green;
+}
+
+.availability.not-available {
+    color: red;
+}
+
+footer {
+    margin-top: 10px;
+}
+
+.foot-panel1 {
+    background-color: #37475a;
+    color: white;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    cursor: pointer;
+}
+
+.foot-panel2 {
+    background-color: #7b808b;
+    color: white;
+    height: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+ul {
+    margin-top: 20px;
+}
+
+ul p {
+    margin-bottom: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+ul a {
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+    text-decoration: none;
+}
+
+ul a:hover {
+    color: white;
+}
+
+.foot-panel3, .foot-panel4 {
+    background-color: #4e4e4e;
+    color: white;
+}
+
+.foot-panel3 {
+    background-color: #4e4e4e;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.logo {
+    background-image: url(SeedNestLogo.jpeg);
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+
+.foot-panel4 {
+    height: 60px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.pages a {
+    font-size: 0.7rem;
+    margin: 0 5px;
+    color: #dddddd;
+    text-decoration: none;
+}
+
+.pages a:hover {
+    color: white;
+}
+
+.copyright {
+    font-size: 0.7rem;
+}

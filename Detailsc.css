@@ -1,0 +1,554 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.navbar {
+    height: 60px;
+    background-color: #4e4e4e;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo {
+    height: 50px;
+    width: 100px;
+}
+
+.logo {
+    background-image: url(SeedNestLogo.jpeg);
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+    background-position: center;
+}
+
+.border {
+    border: 2px solid transparent;
+}
+
+.border:hover {
+    border: 2px solid white;
+}
+
+.clickable-div {
+    text-decoration: none;
+    color: white;
+}
+
+.add-first {
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+
+.add-second {
+    font-size: 1rem;
+    margin-left: 3px;
+}
+
+.add-icon {
+    display: flex;
+    align-items: center;
+}
+
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.search-select {
+    background-color: #b9adad;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+
+.search-input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon {
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    background-color: #b9adad;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+}
+
+.nav-search:hover {
+    border: 2px solid rgb(233, 228, 219);
+}
+
+span {
+    font-size: 0.7rem;
+}
+
+.nav-second {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.nav-cart i {
+    font-size: 30px;
+}
+
+.nav-cart {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.panel {
+    height: 40px;
+    background-color: #7b808b;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-ops {
+    width: 70%;
+    font-size: 0.85rem;
+}
+
+.panel-ops p {
+    display: inline;
+    margin-left: 15px;
+}
+
+.panel-deals {
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.hero-section {
+    background-size: cover;
+    height: 350px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    animation: backgroundAnimation 30s infinite;
+}
+
+.hero-msg {
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 100%;
+    margin-bottom: 25px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.hero-msg p {
+    font-weight: bold;
+    font-size: 20px;
+    color: #333;
+    white-space: nowrap;
+    display: inline-block;
+    animation: moveText 20s linear infinite;
+}
+
+.hero-msg a {
+    color: #007185;
+    text-decoration: none;
+}
+
+.hero-msg a:hover {
+    text-decoration: underline;
+}
+
+@keyframes backgroundAnimation {
+    0% { background-image: url("hero-image.jpg"); }
+    25% { background-image: url("hero2.jpg"); }
+    50% { background-image: url("hero3.jpg"); }
+    75% { background-image: url("hero4.jpg"); }
+    100% { background-image: url("hero-image.jpg"); }
+}
+
+@keyframes moveText {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+}
+
+.shop-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #b6eec3;
+}
+
+.shopping_box {
+    text-decoration: none;
+}
+
+.box {
+    height: 280px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+
+.box-img {
+    height: 200px;
+    background-size: cover;
+    margin: 1rem 0;
+}
+
+.box-content {
+    margin: 0 1rem;
+}
+
+.box-content p {
+    color: #007185;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f4f6;
+}
+
+.product-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.785);
+    max-width: 1200px;
+    margin: 50px auto;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.product-image img {
+    width: 400px;
+    border-radius: 10px;
+    margin-right: 40px;
+}
+
+.product-details {
+    max-width: 600px;
+}
+
+.product-details h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.brand-name {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.brand-name span {
+    font-weight: bold;
+    color: #007185;
+}
+
+.ratings {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.stars {
+    font-size: 1.2rem;
+    color: #f39c12;
+    margin-right: 10px;
+}
+
+.rating-count {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.product-description {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.discounted-price {
+    font-size: 1.8rem;
+    color: #e74c3c;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.original-price {
+    font-size: 1.2rem;
+    color: #777;
+    text-decoration: line-through;
+    margin-right: 10px;
+}
+
+.discount {
+    font-size: 1.1rem;
+    color: #27ae60;
+}
+
+.availability {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.availability i {
+    color: #27ae60;
+    margin-right: 5px;
+}
+
+.quantity {
+    margin-bottom: 20px;
+    font-size: 1rem;
+    color: #333;
+}
+
+.quantity select {
+    padding: 5px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-left: 10px;
+}
+
+.purchase-options {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.buy-now, .add-to-cart {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.buy-now {
+    background-color: #e74c3c;
+    color: white;
+}
+
+.buy-now:hover {
+    background-color: #c0392b;
+}
+
+
+.order_button{
+    text-decoration: none;
+}
+
+
+
+
+
+.add-to-cart {
+    background-color: #3498db;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.add-to-cart i {
+    margin-right: 5px;
+}
+
+.add-to-cart:hover {
+    background-color: #2980b9;
+}
+
+
+.link_box{
+    text-decoration: none;
+    color: inherit;
+}
+
+.other-options p {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.other-options ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.other-options li {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.other-options li i {
+    margin-right: 10px;
+    color: #3498db;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    margin-top: 10px;
+}
+
+.foot-panel1 {
+    background-color: #37475a;
+    color: white;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+
+.foot-panel2 {
+    background-color: #7b808b;
+    color: white;
+    height: 250px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul {
+    margin-top: 20px;
+}
+
+ul a {
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+
+.foot-panel3, .foot-panel4 {
+    background-color: #4e4e4e;
+    color: white;
+    text-align: center;
+}
+
+.foot-panel3 {
+    border-top: 0.5px solid white;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-panel4 {
+    height: 60px;
+    padding-top: 15px;
+}
+
+.logo {
+    background-image: url(SeedNestLogo.jpeg);
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+
+.pages, .copyright {
+    font-size: 0.7rem;
+}

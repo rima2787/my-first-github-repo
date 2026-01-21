@@ -1,0 +1,64 @@
+footer {
+    margin-top: 10px;
+}
+
+.foot-panel1 {
+    background-color: #1a7209;
+    color: white;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+
+.foot-panel2 {
+    background-color: #0fdf62;
+    color: white;
+    height: 180px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul {
+    margin-top: 20px;
+}
+
+ul a {
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+
+.foot-panel3, .foot-panel4 {
+    background-color: #4e4e4e;
+    color: white;
+    text-align: center;
+}
+
+.foot-panel3 {
+    border-top: 0.5px solid white;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #37e934;
+}
+
+.foot-panel4 {
+    height: 60px;
+    padding-top: 15px;
+    background-color: #37e934;
+}
+
+.logo {
+    background-image: url(SeedNestLogo.jpeg);
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+
+.pages, .copyright {
+    font-size: 0.7rem;
+}
