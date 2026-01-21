@@ -1,0 +1,137 @@
+
+
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+.shopping-cart-container {
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.shopping-cart-header h1 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.cart-table {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.cart-table thead th {
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.cart-table tbody td {
+    padding: 15px 0;
+    vertical-align: middle;
+}
+
+.cart-item-image img {
+    width: 80px;
+    border-radius: 8px;
+}
+
+.cart-item-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.cart-item-quantity input {
+    width: 60px;
+    text-align: center;
+}
+
+.cart-item-price {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.btn-checkout, .btn-continue-shopping, .btn-calculate {
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px 0;
+}
+
+.btn-checkout:hover, .btn-continue-shopping:hover, .btn-calculate:hover {
+    background-color: #333;
+}
+
+.btn-continue-shopping {
+    background-color: white;
+    border: 1px solid #ddd;
+    color: black;
+}
+
+.shipping-calculator {
+    margin-top: 30px;
+}
+
+.shipping-calculator h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.shipping-calculator label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.shipping-calculator input,
+.shipping-calculator select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.totals {
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.totals .totals-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.btn-remove {
+    background-color: transparent;
+    border: none;
+    color: red;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn-remove:hover {
+    color: darkred;
+}
