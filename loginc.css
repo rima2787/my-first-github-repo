@@ -1,0 +1,144 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background: url('LoginBackground.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.login-container {
+    width: 30vw;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+}
+
+.login-form {
+    text-align: center;
+}
+
+.logo {
+    width: 100px;
+    /* margin-bottom: 20px; */
+}
+
+.login-form h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.input-group input::placeholder {
+    color: #aaa;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.alternative-login {
+    margin: 20px 0;
+}
+
+.alternative-login p {
+    margin: 10px 0;
+    color: #555;
+}
+
+.google-login {
+    width: 100%;
+    padding: 10px;
+    background-color: #db4437;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.google-login:hover {
+    background-color: #c3372a;
+}
+
+.signup-link {
+    margin-top: 20px;
+}
+
+.signup-link p {
+    color: #555;
+}
+
+.signup-link a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.signup-link a:hover {
+    text-decoration: underline;
+}
+
+.homepage-link {
+    margin-top: 20px;
+}
+
+.homepage-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #2196F3; /* Blue background for the back to homepage button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.homepage-button:hover {
+    background-color: #1976D2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
