@@ -1,0 +1,155 @@
+
+
+
+
+/* Hero section */
+
+.hero-section{
+     /* background-image: url("hero-image.jpg"); */
+    background-size: cover;
+    height: 350px;
+
+    position: relative; /* Added for absolute positioning of hero-msg */
+    overflow: hidden; /* Added to hide overflow of hero-msg */
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+.hero-msg{
+    /* background-color: white; */
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 100%;
+    margin-bottom: 25px ;
+
+
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+@keyframes backgroundAnimation {
+    0% { background-image: url("hero-image.jpg"); }
+    25% { background-image: url("hero2.jpg"); }
+    50% { background-image: url("hero3.jpg"); }
+    75% { background-image: url("hero4.jpg"); }
+    100% { background-image: url("hero-image.jpg"); }
+}
+
+.hero-section {
+    animation: backgroundAnimation 30s infinite; /* Adjust duration (20s) and timing function if needed */
+}
+
+
+/* Decorating moving text : starts */
+
+.hero-msg p {
+    font-weight: bold;
+    font-size: 20px; /* Adjust font size as needed */
+    color: #333; /* Adjust text color as needed */
+}
+
+.hero-msg a {
+    color: #28149b; /* Adjust link color as needed */
+    text-decoration: none;
+}
+
+.hero-msg a:hover {
+    text-decoration: underline ; /* Add underline on hover */
+}
+
+/* Decorating moving text : ends */
+
+
+.hero-msg a{
+    color: #007185;
+}
+
+
+
+/* making the text movable : starts */
+
+.hero-msg p {
+    white-space: nowrap; /* Prevents text from wrapping */
+    display: inline-block;
+    animation: moveText 20s linear infinite; /* Animation applied */
+}
+
+@keyframes moveText {
+    0% {
+        transform: translateX(100%); /* Start outside right */
+    }
+    100% {
+        transform: translateX(-100%); /* End outside left */
+    }
+}
+
+/* making the text movable : ends */
+
+
+
+/* <!-- Shoping section --> */
+
+
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #b6eec3;
+    height: 98vh;
+}
+
+
+/* making link white and without underline */
+.shopping_box{
+    text-decoration: none;
+}
+
+
+
+
+.box{
+    /* border: 2px solid black; */
+    height: 280px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+
+.box-img{
+    height: 190px;
+    background-size: cover;
+    /* background-repeat: no-repeat;
+    background-position: center; */
+    margin-top: 1rem;
+    /* margin-bottom: 1rem; */
+}
+
+
+
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    
+}
+
+.box-content p{
+    color: #007185;
+}
+
+
+
+
